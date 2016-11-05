@@ -1,4 +1,4 @@
-# RTHGoldPrice
+# RT HGold Price
 * RTH Gold Price Demo App: Display gold price as list and line chart cubic.
 * Technologies: MVP, RxAndroid 1.0, Retrofit 1.9, OkHttp 2.2, Picasso 2.5.2, Gson 2.6.2, HelloChart 1.5.8, ButterKnife 8.2.1, Android Support V7...
 
