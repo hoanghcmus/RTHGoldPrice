@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <!--Time section-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/_10"
+        android:paddingLeft="@dimen/_20"
+        android:paddingRight="@dimen/_20"
+        android:paddingTop="@dimen/_10">
+
+        <TextView
+            android:id="@+id/txt_day_of_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_2"
+            android:text="@string/sample_day_of_month"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/t_38"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_day_of_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_day_of_week"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_month_and_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_month_and_year"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/t_13" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--Time section - end-->
+
+    <!--Line chart section-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120"
+        android:background="@color/white"
+        android:padding="@dimen/_10">
+
+        <lecho.lib.hellocharts.view.LineChartView
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <!--Line chart section - end-->
+
+    <!--List gold price section-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/_30"
+        android:paddingRight="@dimen/_30"
+        android:paddingTop="@dimen/_15">
+
+        <TextView
+            android:id="@+id/txt_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_10"
+            android:gravity="center"
+            android:text="@string/msg_info_list_gold_empty"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/t_18"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcl_gold_price_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20"
+            android:background="@drawable/bg_list_gold_price"
+            android:paddingBottom="@dimen/_45"
+            android:visibility="gone" />
+
+    </FrameLayout>
+    <!--List gold price section - end -->
+
+</LinearLayout>

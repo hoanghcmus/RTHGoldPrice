@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/ic_butterfly_0" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_1" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_2" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_3" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_4" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_5" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_6" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_7" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_8" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_9" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_10" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_11" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_12" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_13" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_14" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_15" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_16" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_17" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_18" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_19" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_20" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_21" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_22" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_23" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_24" android:duration="50" />
+    <item android:drawable="@drawable/ic_butterfly_25" android:duration="50" />
+</animation-list>

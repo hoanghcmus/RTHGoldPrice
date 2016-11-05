@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="empty"></string>
+    <string name="close">Close</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="app_name">RTH Gold Price</string>
+    <string name="splash_text">Robust Tech House</string>
+    <string name="item_menu_my_profile">My Profile</string>
+    <string name="title_gold_price_list_fragment">RTH Gold Price</string>
+
+    <string name="msg_network_connected">Network connected</string>
+    <string name="msg_network_dis_connected">Network Disconnected</string>
+    <string name="msg_info_list_gold_empty">Currently, we don\'t have any gold data.</string>
+    <string name="msg_error_fail_to_load_gold_list">Fail to connect Data Server\n</string>
+    <string name="msg_error_fail_to_load_gold_list_without_network_connection">No network connection!!!\nFail to connect Data Server</string>
+    <string name="msg_confirm_continue_or_not_without_network_connection">Your device does not connect to any network. Do you want to continue?</string>
+
+    <string name="sample_text">Sample text</string>
+    <string name="sample_day_of_month">21</string>
+    <string name="sample_day_of_week">Thursday</string>
+    <string name="sample_month_and_year">June 2016</string>
+
+    <string name="profile_user_avatar">Ngoc Hoang Nguyen</string>
+    <string name="profile_user_name">Ngoc Hoang Nguyen</string>
+    <string name="profile_user_email">hoanghcmus@gmail.com</string>
+
+</resources>
